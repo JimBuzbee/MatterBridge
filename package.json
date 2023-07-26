@@ -1,0 +1,32 @@
+{
+    "name": "matter.js-monorepo",
+    "private": true,
+    "workspaces": [
+        "packages/matter.js",
+        "packages/matter-node.js"
+    ],
+    "scripts": {
+        "prepare": "npm run build-clean",
+        "build": "npm run build --workspaces",
+        "build-clean": "npm run build-clean --workspaces",
+        "test": "npm run test --workspaces",
+        "lint": "eslint **/*.ts",
+        "lint-fix": "eslint --fix **/*.ts",
+        "format": "tsfmt --useTsconfig tsconfig.tsfmt.lint.json -r",
+        "format-verify": "tsfmt --useTsconfig tsconfig.tsfmt.lint.json --verify"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.54.0",
+        "@typescript-eslint/parser": "^5.54.0",
+        "eslint": "^8.35.0",
+        "eslint-import-resolver-typescript": "^3.5.3",
+        "eslint-plugin-import": "^2.27.5",
+        "typescript": "^4.9.5",
+        "typescript-formatter": "^7.2.2"
+    },
+    "dependencies": {
+        "canvas": "^2.11.2",
+        "mdns": "^2.7.2",
+        "wemo-client": "^0.15.0"
+    }
+}

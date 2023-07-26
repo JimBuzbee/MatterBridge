@@ -1,0 +1,29 @@
+{
+  "Tom's Room": {
+    "inside": true
+  },
+  "Bat Box": {
+    "inside": false
+  },
+  "Master Bedroom": {
+    "inside": true
+  },
+  "Back Porch": {
+    "inside": false
+  },
+  "Office": {
+    "inside": true
+  },
+  "Garage": {
+    "inside": true
+  },
+  "Attic": {
+    "inside": true
+  },
+  "Family Room": {
+    "inside": true
+  },
+  "Proof Press": {
+    "inside": true
+  }
+}

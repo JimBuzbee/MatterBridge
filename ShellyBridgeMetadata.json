@@ -1,0 +1,14 @@
+{
+  "shellydimmer2-485519DAE182.local./light/0": {
+    "name": "Shelly Box",
+    "icon": "images/shellybox.jpg"
+  },
+  "shellyswitch25-3494547AA0CF.local./relay/0": {
+    "name": "Front Window",
+    "icon": "images/frontwindow.jpg"
+  },
+  "shellyswitch25-3494547AA0CF.local./relay/1": {
+    "name": "Front Porch",
+    "icon": "images/frontporch.jpg"
+  }
+}

@@ -1,0 +1,16 @@
+/* Configuration for tsfmt and eslint */
+{
+    "compilerOptions": {
+      "module": "node16",
+      "moduleResolution": "node16", // Required to support exports on package.json
+
+      // Local dev compilation checks
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitOverride": true,
+      "noUnusedParameters": true,
+      "noUnusedLocals": true,
+      "strictNullChecks": true
+    },
+    "include": ["packages/**/*.ts"],
+    "exclude": ["packages/*/dist"]
+}

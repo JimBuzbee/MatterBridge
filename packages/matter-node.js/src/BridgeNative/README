@@ -1,0 +1,6 @@
+Various IOT type devices are present on the network
+In order for them to be part of the bridge, they implement a standard interface that IOTBridge deals with
+IOTBridge then manages these devices and gives callback into the matter-knowledgeable code when new devices appear or change
+
+
+
